@@ -16,11 +16,7 @@ module.exports = {
             const botName = "Miuki";
             const channelLink = "https://t.me/sakibin_sinha";
             const airdropLinks = [
-                { text: "Rats🐀", url: "http://t.me/RatsKingdom_Bot/join?startapp=66df0979919870e8f99b34ec" },
-                { text: "YesCoin🪙", url: "https://t.me/theYescoin_bot/Yescoin?startapp=OUkvVZ" },
-                { text: "Ducks🦆", url: "https://t.me/duckscoop_bot/app?startapp=6DJW0ac2Zy" }, 
-                { text: "CEX.IO", url: "https://t.me/cexio_tap_bot?start=1717081239790594" },
-     { text: "Moonbix🪙", url: "https://t.me/Binance_Moonbix_bot/start?startapp=ref_5349003018&startApp=ref_5349003018" },
+               { text: "Moonbix🪙", url: "https://t.me/Binance_Moonbix_bot/start?startapp=ref_5349003018&startApp=ref_5349003018" },
               { text: "Grand Kombat", url: "https://t.me/grandcombat_bot/start?startapp=FTKTlthS3W" }
             ];
 
@@ -31,6 +27,10 @@ module.exports = {
             const buttons = {
                 inline_keyboard: [
                     [{ text: "Join Channel", url: channelLink }],
+                    [{ text: "Ducks🦆", url: "https://t.me/duckscoop_bot/app?startapp=6DJW0ac2Zy" }, 
+                { text: "CEX.IO", url: "https://t.me/cexio_tap_bot?start=1717081239790594" }],
+                    [ { text: "Rats🐀", url: "http://t.me/RatsKingdom_Bot/join?startapp=66df0979919870e8f99b34ec" },
+                { text: "YesCoin🪙", url: "https://t.me/theYescoin_bot/Yescoin?startapp=OUkvVZ" }],
                     airdropLinks
                 ]
             };
