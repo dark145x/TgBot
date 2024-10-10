@@ -44,7 +44,6 @@
     "mal-scraper": "^2.13.1",
     "moment-timezone": "^0.5.45",
     "mongoose": "^8.5.4",
-    "npm": "^10.9.0",
     "node-telegram-bot-api": "^0.66.0",
     "os": "^0.1.2",
     "tinyurl": "^1.1.7"
